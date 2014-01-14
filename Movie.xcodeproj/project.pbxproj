@@ -14,13 +14,13 @@
 		5C98F9081885A5A9005C1EDD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C98F9071885A5A9005C1EDD /* main.m */; };
 		5C98F90C1885A5A9005C1EDD /* MAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C98F90B1885A5A9005C1EDD /* MAppDelegate.m */; };
 		5C98F90F1885A5A9005C1EDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C98F90D1885A5A9005C1EDD /* Main.storyboard */; };
-		5C98F9121885A5A9005C1EDD /* MViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C98F9111885A5A9005C1EDD /* MViewController.m */; };
 		5C98F9141885A5A9005C1EDD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C98F9131885A5A9005C1EDD /* Images.xcassets */; };
 		5C98F91B1885A5A9005C1EDD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C98F91A1885A5A9005C1EDD /* XCTest.framework */; };
 		5C98F91C1885A5A9005C1EDD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C98F8FB1885A5A9005C1EDD /* Foundation.framework */; };
 		5C98F91D1885A5A9005C1EDD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C98F8FF1885A5A9005C1EDD /* UIKit.framework */; };
 		5C98F9251885A5A9005C1EDD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5C98F9231885A5A9005C1EDD /* InfoPlist.strings */; };
 		5C98F9271885A5A9005C1EDD /* MovieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C98F9261885A5A9005C1EDD /* MovieTests.m */; };
+		5C98F9321885A601005C1EDD /* MovieTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C98F9311885A601005C1EDD /* MovieTableVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		5C98F90A1885A5A9005C1EDD /* MAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAppDelegate.h; sourceTree = "<group>"; };
 		5C98F90B1885A5A9005C1EDD /* MAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAppDelegate.m; sourceTree = "<group>"; };
 		5C98F90E1885A5A9005C1EDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5C98F9101885A5A9005C1EDD /* MViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MViewController.h; sourceTree = "<group>"; };
-		5C98F9111885A5A9005C1EDD /* MViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MViewController.m; sourceTree = "<group>"; };
 		5C98F9131885A5A9005C1EDD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5C98F9191885A5A9005C1EDD /* MovieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C98F91A1885A5A9005C1EDD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		5C98F9221885A5A9005C1EDD /* MovieTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MovieTests-Info.plist"; sourceTree = "<group>"; };
 		5C98F9241885A5A9005C1EDD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5C98F9261885A5A9005C1EDD /* MovieTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieTests.m; sourceTree = "<group>"; };
+		5C98F9301885A601005C1EDD /* MovieTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieTableVC.h; sourceTree = "<group>"; };
+		5C98F9311885A601005C1EDD /* MovieTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieTableVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				5C98F90A1885A5A9005C1EDD /* MAppDelegate.h */,
 				5C98F90B1885A5A9005C1EDD /* MAppDelegate.m */,
 				5C98F90D1885A5A9005C1EDD /* Main.storyboard */,
-				5C98F9101885A5A9005C1EDD /* MViewController.h */,
-				5C98F9111885A5A9005C1EDD /* MViewController.m */,
+				5C98F9301885A601005C1EDD /* MovieTableVC.h */,
+				5C98F9311885A601005C1EDD /* MovieTableVC.m */,
 				5C98F9131885A5A9005C1EDD /* Images.xcassets */,
 				5C98F9021885A5A9005C1EDD /* Supporting Files */,
 			);
@@ -251,8 +251,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C98F90C1885A5A9005C1EDD /* MAppDelegate.m in Sources */,
+				5C98F9321885A601005C1EDD /* MovieTableVC.m in Sources */,
 				5C98F9081885A5A9005C1EDD /* main.m in Sources */,
-				5C98F9121885A5A9005C1EDD /* MViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
